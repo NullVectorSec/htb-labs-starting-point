@@ -111,7 +111,7 @@ curl -i http://unika.htb/
 curl: (6) Could not resolve host: unika.htb
 ```
 #### Browser
-![[Screenshot 2025-08-20 at 08.51.44.png]]
+![](../Assets/Screenshot%202025-08-20%20at%2008.51.44.png)
 ### Add static name resolution entry
 - Useful resource
 	- https://tldp.org/LDP/solrhe/Securing-Optimizing-Linux-RH-Edition-v1.3/chap9sec95.html
@@ -126,7 +126,7 @@ echo "10.129.57.200 unika.htb" | sudo tee -a /etc/hosts
 curl -i http://unika.htb/
 ```
 #### Browser
-![[Screenshot 2025-08-20 at 10.41.36.png]]
+![](../Assets/Screenshot%202025-08-20%20at%2010.41.36.png)
 ### Explore webpage content
 - Most content has no discernible value
 - Key result
@@ -147,7 +147,7 @@ http://unika.htb/index.php?page=french.html
 			- php
 			- Perl
 	- `include` function directly using user input
-![](Screenshot%202025-09-14%20at%2013.52.25.png)
+![](../Assets/Screenshot%202025-09-14%20at%2013.52.25.png)
 ### Test LFD vulnerability
 - Useful resource
 	- https://medium.com/@zoningxtr/local-file-disclosure-lfd-attacks-explained-the-silent-data-leak-you-never-saw-coming-f473f73a05fb
@@ -159,7 +159,7 @@ http://unika.htb/index.php?page=french.html
 http://unika.htb/index.php?page=C:\Windows\win.ini
 ```
 - Successfully returned the file's contents
-![](Screenshot%202025-09-14%20at%2009.52.00.png)
+![](../Assets/Screenshot%202025-09-14%20at%2009.52.00.png)
 ### Test php wrappers
 - Useful resources
 	- https://www.php.net/manual/en/wrappers.php

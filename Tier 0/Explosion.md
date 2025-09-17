@@ -179,4 +179,4 @@ xfreerdp /v:10.129.99.63 /u:administrator /p: /dynamic-resolution
 ```
 ### Retrieve the flag
 - Upon login, opened `flag.txt` on the Desktop.
-![](Screenshot%202025-09-13%20at%2009.41.22.png)
+![](../Assets/Screenshot%202025-09-13%20at%2009.41.22.png)

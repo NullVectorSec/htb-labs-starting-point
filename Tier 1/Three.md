@@ -75,11 +75,11 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 curl -i http://10.129.227.248
 ```
 #### Browser 
-![[Screenshot 2025-08-20 at 13.35.53.png]]
+![](../Assets/Screenshot%202025-08-20%20at%2013.35.53.png)
 ### Explore webpage content
 - Most elements of no discernible value
 - Key result element
-![[Screenshot 2025-08-20 at 13.36.11.png]]
+![](../Assets/Screenshot%202025-08-20%20at%2013.36.11.png)
 ### Add static entry to /etc/host
 - Useful resource
 	- https://tldp.org/LDP/solrhe/Securing-Optimizing-Linux-RH-Edition-v1.3/chap9sec95.html
@@ -169,7 +169,7 @@ aws --endpoint-url=http://s3.thetoppers.htb s3 ls s3://thetoppers.htb
 ### Test RCE vulnerability
 - Useful resource
 	- https://www.f5.com/labs/learning-center/web-shells-understanding-attackers-tools-and-techniques
-![[Screenshot 2025-08-20 at 15.59.25.png]]
+![](../Assets/Screenshot%202025-08-20%20at%2015.59.25.png)
 ### Connect a reverse shell
 - Useful resources
 	- https://medium.com/@tareshsharma17/simple-php-reverse-shell-061d4a6bd18d#:~:text=Crafting%20the%20Web%20Shell

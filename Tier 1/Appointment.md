@@ -67,7 +67,7 @@ PORT   STATE SERVICE VERSION
 curl -i 10.129.93.83
 ```
 #### Browser
-![](Screenshot%202025-09-17%20at%2009.25.22.png)
+![](../Assets/Screenshot%202025-09-17%20at%2009.25.22.png)
 ### Research common login credentials
 - Usernames
 	- https://portswigger.net/web-security/authentication/auth-lab-usernames
@@ -112,4 +112,4 @@ curl -i 10.129.93.83
 - Logged in successfully with payload `admin'#` as the username and `test` as the password
 ### Retrieve the flag
 - Presented upon login
-![](Screenshot%202025-09-17%20at%2009.24.44.png)
+![](../Assets/Screenshot%202025-09-17%20at%2009.24.44.png)

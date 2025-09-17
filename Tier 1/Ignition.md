@@ -79,7 +79,7 @@ echo "10.129.1.27 ignition.htb" | sudo tee -a /etc/hosts
 curl -i http://ignition.htb/
 ```
 #### Browser
-![[Screenshot 2025-08-20 at 20.21.51.png]]
+![](../Assets/Screenshot%202025-08-20%20at%2020.21.51.png)
 ### Review webpage
 - No elements of discernible value
 ### Directory enumeration
@@ -109,9 +109,9 @@ gobuster dir -u http://ignition.htb -w /opt/useful/seclists/Discovery/Web-Conten
 ### Testing directory 
 - Most pages of no discernible value
 #### /admin
-![[Screenshot 2025-08-20 at 20.49.09.png]]
+![](../Assets/Screenshot%202025-08-20%20at%2020.49.09.png)
 #### /customer/account/login/referer/aHR0cDovL2lnbml0aW9uLmh0Yi93aXNobGlzdA%2C%2C/
-![](Screenshot%202025-09-16%20at%2010.19.06.png)
+![](../Assets/Screenshot%202025-09-16%20at%2010.19.06.png)
 ### Research common credentials
 - Usernames
 	- https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/04-Authentication_Testing/02-Testing_for_Default_Credentials#:~:text=Try%20the%20following%20usernames%20%2D%20%E2%80%9Cadmin,%E2%80%9Ctesting%E2%80%9D%20and%20similar%20names.
@@ -142,4 +142,4 @@ gobuster dir -u http://ignition.htb -w /opt/useful/seclists/Discovery/Web-Conten
 - Successfully logged in using username `admin` and password `qwerty123`
 ### Retrieve the flag
 - Presented upon login
-![](Screenshot%202025-09-16%20at%2010.37.23%201.png)
+![](../Assets/Screenshot%202025-09-16%20at%2010.37.23.png)

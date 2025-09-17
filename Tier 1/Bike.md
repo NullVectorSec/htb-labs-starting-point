@@ -105,11 +105,11 @@ curl -i http://10.129.30.246
     </p>
 ```
 #### Browser
-![](Screenshot%202025-09-16%20at%2011.14.59.png)
+![](../Assets/Screenshot%202025-09-16%20at%2011.14.59.png)
 ### Form Response Testing
 #### Browser
 - Test Data: `test@test.com`
-![](Screenshot%202025-09-16%20at%2011.16.56.png)
+![](../Assets/Screenshot%202025-09-16%20at%2011.16.56.png)
 ### Research webpage injection vulnerability
 - https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/07-Input_Validation_Testing/18-Testing_for_Server_Side_Template_Injection
 - https://www.vaadata.com/blog/server-side-template-injection-vulnerability-what-it-is-how-to-prevent-it/
@@ -120,7 +120,7 @@ curl -i http://10.129.30.246
 	- https://book.hacktricks.wiki/en/pentesting-web/ssti-server-side-template-injection/index.html#handlebars-nodejs
 #### Browser
 - Test Data: `**${{<%[%'"}}%\.**`
-![](Screenshot%202025-09-16%20at%2014.15.31.png)
+![](../Assets/Screenshot%202025-09-16%20at%2014.15.31.png)
 #### Curl
 ```bash
 curl -X 'POST' -H 'Content-Type: application/json' --data-binary $'{\"profile\":{"layout\": \"./../routes/index.js\"}}' 'http://10.129.30.246'

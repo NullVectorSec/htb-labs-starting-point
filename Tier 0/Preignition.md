@@ -61,7 +61,7 @@ PORT   STATE SERVICE VERSION
 curl -i http://10.129.93.5
 ```
 #### Browser
-![](Screenshot%202025-09-16%20at%2022.08.28.png)
+![](../Assets/Screenshot%202025-09-16%20at%2022.08.28.png)
 ### Enumerate directories
 - Useful resource
 	- https://hackertarget.com/gobuster-tutorial/#:~:text=in%20one%20location.-,Gobuster%20DIR%20command,-The%20DIR%20mode
@@ -82,9 +82,9 @@ gobuster dir -u http://10.129.93.5 -w /opt/useful/seclists/Discovery/Web-Content
 curl -i http://10.129.93.5/admin.php
 ```
 #### Browser
-![](Screenshot%202025-09-16%20at%2022.07.17.png)
+![](../Assets/Screenshot%202025-09-16%20at%2022.07.17.png)
 ### Initial login form test
-![](Screenshot%202025-09-16%20at%2022.00.30.png)
+![](../Assets/Screenshot%202025-09-16%20at%2022.00.30.png)
 ### Research common admin credentials
 - Resource
 	- https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/04-Authentication_Testing/02-Testing_for_Default_Credentials#:~:text=Try%20the%20following%20usernames%20%2D%20%E2%80%9Cadmin,%E2%80%9Ctesting%E2%80%9D%20and%20similar%20names.
@@ -108,7 +108,7 @@ curl -i http://10.129.93.5/admin.php
 		- `admin123`
 		- `root`
 - Successful login using username `admin` and password `admin`
-![](Screenshot%202025-09-16%20at%2022.06.02.png)
+![](../Assets/Screenshot%202025-09-16%20at%2022.06.02.png)
 ## 5. Tools Used
 - Linux
 - CLI

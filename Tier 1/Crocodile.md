@@ -139,7 +139,7 @@ rKXM59ESxesUFHAd
 curl -i 10.129.99.197
 ```
 #### Browser
-![](Screenshot%202025-09-13%20at%2018.52.50.png)
+![](../Assets/Screenshot%202025-09-13%20at%2018.52.50.png)
 ### Directory enumeration
 - Useful resource
 	- https://3os.org/penetration-testing/cheatsheets/gobuster-cheatsheet/
@@ -154,7 +154,7 @@ gobuster dir -u http://10.129.99.197 -w /opt/useful/seclists/Discovery/Web-Conte
 ```
 ### Test /dashboard directory response
 - Redirected to `login.php`
-![](Screenshot%202025-09-13%20at%2019.01.54.png)
+![](../Assets/Screenshot%202025-09-13%20at%2019.01.54.png)
 ### Test login with previously found credentials
 - Credentials
 	- Usernames
@@ -170,4 +170,4 @@ gobuster dir -u http://10.129.99.197 -w /opt/useful/seclists/Discovery/Web-Conte
 - Successful login with username `admin` and password `rKXM59ESxesUFHAd`
 ### Retrieve the flag
 - Presented upon login.
-![](Screenshot%202025-09-13%20at%2019.09.52.png)
+![](../Assets/Screenshot%202025-09-13%20at%2019.09.52.png)

