@@ -6,30 +6,30 @@ The aim is to provide the reader with a more concise resource when working throu
 
 ## Machines
 ### Tier 0
-| Machine Name | Services  | Vulnerabilities/Exploits                       | Tools                       |
-|--------------|-----------|------------------------------------------------|-----------------------------|
-| Meow         | telnet    | default credentials / lacks authentication     | nmap, telnet                |
-| Fawn         | ftp       | anonymous authentication                       | nmap, ftp                   |
-| Dancing      | smb       | anonymous authentication                       | nmap, smbclient             |
-| Redeemer     | redis     | unauthenticated access                         | nmap, redis-cli             |
-| Explosion    | smb, rdp  | default credentials / lacks authentication     | nmap, smbclient, xfreerdp   |
-| Preignition  | http      | default credentials / weak authentication      | nmap, curl, gobuster        |
-| Mongod       | mongodb   | unauthenticated access                         | nmap, ssh, mongosh, mongodb |
-| Synced       | rsync     | unauthenticated access                         | nmap, rsync                 |
+| Machine Name                                                                                              | Services | Vulnerabilities/Exploits                   | Tools                       |
+| --------------------------------------------------------------------------------------------------------- | -------- | ------------------------------------------ | --------------------------- |
+| [Meow](https://github.com/NullVectorSec/htb-labs-starting-point/blob/main/Tier%200/Meow.md)               | telnet   | default credentials / lacks authentication | nmap, telnet                |
+| [Fawn](https://github.com/NullVectorSec/htb-labs-starting-point/blob/main/Tier%200/Fawn.md)               | ftp      | anonymous authentication                   | nmap, ftp                   |
+| [Dancing](https://github.com/NullVectorSec/htb-labs-starting-point/blob/main/Tier%200/Dancing.md)         | smb      | anonymous authentication                   | nmap, smbclient             |
+| [Redeemer](https://github.com/NullVectorSec/htb-labs-starting-point/blob/main/Tier%200/Redeemer.md)       | redis    | unauthenticated access                     | nmap, redis-cli             |
+| [Explosion](https://github.com/NullVectorSec/htb-labs-starting-point/blob/main/Tier%200/Explosion.md)     | smb, rdp | default credentials / lacks authentication | nmap, smbclient, xfreerdp   |
+| [Preignition](https://github.com/NullVectorSec/htb-labs-starting-point/blob/main/Tier%200/Preignition.md) | http     | default credentials / weak authentication  | nmap, curl, gobuster        |
+| [Mongod](https://github.com/NullVectorSec/htb-labs-starting-point/blob/main/Tier%200/Mongod.md)           | mongodb  | unauthenticated access                     | nmap, ssh, mongosh, mongodb |
+| [Synced](https://github.com/NullVectorSec/htb-labs-starting-point/blob/main/Tier%200/Synced.md)           | rsync    | unauthenticated access                     | nmap, rsync                 |
 
 ### Tier 1
-| Machine Name | Services      | Vulnerabilities/Exploits                                   | Tools                                      |
-|--------------|---------------|------------------------------------------------------------|--------------------------------------------|
-| Appointment  | http          | sql injection                                            | nmap, curl                                   |
-| Sequel       | mysql         | default credentials / lacks authentication               | nmap, mysql                                  |
-| Crocodile    | ftp, http     | anonymous authentication / exposed credentials           | nmap, ftp                                    |
-| Responder    | http, WinRM   | parameter tampering, LFD, LFI, RFI                       | nmap, responder, john the ripper, evil-winrm |
-| Three        | http, aws S3  | unrestricted file upload, RCE                            | nmap, gobuster, awscli, netcat               |
-| Ignition     | http          | common credentials / weak authentication                 | nmap, curl, gobuster                         |
-| Bike         | http          | SSTI, RCE                                                | nmap, curl                                   |
-| Funnel       | ftp ssh       | exposed credentials / default credentials / ssh pivoting | nmap, ftp, ssh, psql                         |
-| Pennyworth   | http, jenkins | default credentials / weak authentication / RCE          | nmap, jenkins                                |
-| Tactics      | smb           | default credentials / lacks authentication               | nmap, smbclient, psexec.py                   |
+| Machine Name                                                                                              | Services      | Vulnerabilities/Exploits                                 | Tools                                        |
+| --------------------------------------------------------------------------------------------------------- | ------------- | -------------------------------------------------------- | -------------------------------------------- |
+| [Appointment](https://github.com/NullVectorSec/htb-labs-starting-point/blob/main/Tier%201/Appointment.md) | http          | sql injection                                            | nmap, curl                                   |
+| [Sequel](https://github.com/NullVectorSec/htb-labs-starting-point/blob/main/Tier%201/Sequel.md)           | mysql         | default credentials / lacks authentication               | nmap, mysql                                  |
+| [Crocodile](https://github.com/NullVectorSec/htb-labs-starting-point/blob/main/Tier%201/Crocodile.md)     | ftp, http     | anonymous authentication / exposed credentials           | nmap, ftp                                    |
+| [Responder](https://github.com/NullVectorSec/htb-labs-starting-point/blob/main/Tier%201/Responder.md)     | http, WinRM   | parameter tampering, LFD, LFI, RFI                       | nmap, responder, john the ripper, evil-winrm |
+| [Three](https://github.com/NullVectorSec/htb-labs-starting-point/blob/main/Tier%201/Three.md)             | http, aws S3  | unrestricted file upload, RCE                            | nmap, gobuster, awscli, netcat               |
+| [Ignition](https://github.com/NullVectorSec/htb-labs-starting-point/blob/main/Tier%201/Ignition.md)       | http          | common credentials / weak authentication                 | nmap, curl, gobuster                         |
+| [Bike](https://github.com/NullVectorSec/htb-labs-starting-point/blob/main/Tier%201/Bike.md)               | http          | SSTI, RCE                                                | nmap, curl                                   |
+| [Funnel](https://github.com/NullVectorSec/htb-labs-starting-point/blob/main/Tier%201/Funnel.md)           | ftp ssh       | exposed credentials / default credentials / ssh pivoting | nmap, ftp, ssh, psql                         |
+| [Pennyworth](https://github.com/NullVectorSec/htb-labs-starting-point/blob/main/Tier%201/Pennyworth.md)   | http, jenkins | default credentials / weak authentication / RCE          | nmap, jenkins                                |
+| [Tactics](https://github.com/NullVectorSec/htb-labs-starting-point/blob/main/Tier%201/Tactics.md)         | smb           | default credentials / lacks authentication               | nmap, smbclient, psexec.py                   |
 
 ## Tier 2
 - In progress
